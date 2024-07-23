@@ -22,6 +22,8 @@ password.send_keys('  // YOUR Password //')            # Your password
 signin = driver.find_element(By.CLASS_NAME, value = "btn__primary--large")
 signin.click()
 
+driver.implicitly_wait(5)
+
 search = driver.find_element(By.CLASS_NAME, "jobs-search-box__input-icon")
 search.send_keys(' software engineer', Keys.ENTER()) 
 
