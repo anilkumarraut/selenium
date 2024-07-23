@@ -1,0 +1,8 @@
+git clone  " Git clone link from git hub"
+cd "file name"
+git remote -v
+git add " file name"  // The file that you made change to staging area
+git commit -m "Any comment that you want to write"
+git push origin " Name of the branch"   // Usually main or master
+
+Then go to git hub and refresh it to see the code
